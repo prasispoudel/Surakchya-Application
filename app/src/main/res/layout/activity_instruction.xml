@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Instruction">
+
+    <Button
+        android:id="@+id/button_Legal"
+        android:layout_width="378dp"
+        android:layout_height="106dp"
+        android:text="@string/Legal_Guide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_psycological"
+        android:layout_width="378dp"
+        android:layout_height="106dp"
+        android:layout_marginBottom="156dp"
+        android:text="@string/psychological"
+        app:layout_constraintBottom_toTopOf="@+id/button_Legal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_selfdefence"
+        android:layout_width="378dp"
+        android:layout_height="106dp"
+        android:text="@string/self_defence"
+        app:layout_constraintBottom_toTopOf="@+id/button_psycological"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/heading_help"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:text="@string/Help_Me"
+        app:layout_constraintBottom_toTopOf="@+id/button_selfdefence"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/widget_em_button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="cursive"
+        android:text="@string/two_wheeler_mode"
+        app:backgroundTint="@color/btnColor"
+        app:backgroundTintMode="src_over"
+        app:cornerRadius="@dimen/activity_horizontal_margin"
+        app:icon="@drawable/rounded_button"
+        app:rippleColor="@color/material_on_primary_disabled" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:layout_above="@+id/widget_em_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:layout_marginBottom="10dp"
+        android:foregroundGravity="center"
+        android:contentDescription="@string/two_wheeler_mode"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+</RelativeLayout>

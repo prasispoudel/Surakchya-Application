@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Surakchya</string>
+    <string name="Head_Home">Surakchya Application</string>
+    <string name="Help_Me">Help Me</string>
+    <string name="first_aid_home">First_Aid</string>
+    <string name="Two_Activated">Two Wheeler Mode Activated</string>
+    <string name="accident_yes">Have you met an accident</string>
+    <string name="two_close">Two wheeler mode close alert</string>
+    <string name="two_close_prompt">Do you want to turn off Two wheeler mode?</string>
+    <string name="settings_tag">settings</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="user_guide_name">User Guide</string>
+    <string name="emergency_message_edit">Edit Emergency Message</string>
+    <string name="maps_name">Maps</string>
+    <string name="back_button">Go Back</string>
+    <string name="current_message">Current Message</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="home_nav_button">Home Page</string>
+    <string name="emergency_mode_on">Emergency Mode On</string>
+    <string name="two_wheeler_mode">Two Wheeler Mode</string>
+    <string name="selfDefTab">Self Defence Guide</string>
+    <string name="survival_guide">Survival Guide</string>
+    <string name="Legal_Guide">Legal Guide</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_settings_app">SettingsApp</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_user_location">Map</string>
+    <string name="add_contact_header">Add New Emergency Contact</string>
+    <string name="add_contact">Add Contact</string>
+    <string name="emergency_click">"Help me! I am in danger "</string>
+    <string name="adding_conact">Adding Emergency Contact...</string>
+    <string name="adding_contact_not_sucess">Contact Not Added</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="loading_local_contacts">loading all the contacts from your phone</string>
+    <string name="mesage_editor">Emergency Message Editor</string>
+    <string name="edit_em_message">Edit emergency message</string>
+    <string name="update_emergency_message">Update Message</string>
+    <string name="gps_wait">Waiting for GPS connection</string>
+    <string name="message_not_sent">Sorry, message could not been sent .</string>
+    <string name="contact_edit_text">Edit Emergency Contact Details</string>
+    <string name="delete_contact">Delete</string>
+    <string name="accident_happen">Accident Alert! Location:-</string>
+    <string name="self_defence">Self Defence Guide</string>
+    <string name="psychological">psychological consultation</string>
+    <string name="legalConsultation">Legal Consultation</string>
+    <string name="first_aid_heading">First Aid Guide</string>
+    <string name="first_aid_one">if you seen someone injured</string>
+    <string name="first_aid_one_desc">default value first aid one</string>
+    <string name="first_aid_one_desc1">description2</string>
+    <string name="next_page">Next Page</string>
+    <string name="first_aid_2_one">middle text page two</string>
+    <string name="first_aid_page3_one">page three top</string>
+    <string name="first_aid_page3two">Page thrree content 2</string>
+    <string name="first_burn">In case of Burn through fire</string>
+    <string name="first_aid_page4one">Page Four Top Fire Burn</string>
+    <string name="first_aid_open_cut">First Aid for Open Cuts</string>
+    <string name="first_aid_cut_wound_desc">Cut wound Description</string>
+    <string name="first_aid_blood_loss">Exsessive Blodd Loss</string>
+    <string name="first_aid_blood_loss_desc">Blood Loss Description</string>
+    <string name="first_aid_bone_break">Bone Fracture</string>
+    <string name="first_aid_bone_frac_desc">Bone Fracture first aid description</string>
+    <string name="emergency_log">Emergency Log</string>
+    <string name="my_location">My Location</string>
+    <string name="user_guide">User Guide</string>
+    <string name="emergency_user_guide">how to turn on emergency mode?</string>
+    <string name="user_two_whheler">how to start two wheeler mode?</string>
+    <string name="user_edit_message">how to edit emergency message?</string>
+    <string name="user_add_contact">how to add emergency contacts?</string>
+    <string name="set_user_audio">how to set length of  audio recording ?</string>
+    <string name="user_first_aid">First Aid Section</string>
+    <string name="user_help_doc">how to view document kept for help?</string>
+    <string name="usertwo_content">if accident is detected then the device asks you, if you dont respond it will send messages to all emergency contacts.</string>
+    <string name="userMSG_content">edit your emergency message here and press save.</string>
+    <string name="user_see_firstAid">You can see your first aid guide through this page.</string>
+    <string name="user_em_on">Once you click on the \"help me\" button, the emergency mode will be initiated, your location will be sent to emergency contacts and audio will be recorded.</string>
+    <string name="user_audio_content">Use the slider to set the prefered length of audio recording and press set button to save your selection. This can be demostrated by the arrows given in the figure. (audio length limit: two to fifte minutes)</string>
+    <string name="user_add_con">Procedure for adding emergency contacts...</string>
+    <string name="user_add_con_type">There are two ways to add emergency contacts: add emergency contacts or select pre-existing  contacts within your phone.</string>
+    <string name="user_con_add_two_con">First Method</string>
+    <string name="user_add_con_method_two">Second Method (Contact selection Method)</string>
+    <string name="edit_contact">Edit Contact</string>
+</resources>
